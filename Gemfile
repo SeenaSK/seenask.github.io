@@ -11,4 +11,12 @@ platforms :mingw, :x64_mingw, :mswin, :jruby do
   gem "tzinfo-data"
 end
 
-gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
+gem "wdm", "~> 0.1", :platforms => [:mingw, :x64_mingw, :mswin]
+
+gem 'logger'
+
+gem 'csv'
+
+gem 'base64'
+
+gem 'jekyll-compose', group: [:jekyll_plugins]
